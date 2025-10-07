@@ -11,35 +11,35 @@ export const galleryImages: GalleryImage[] = [
     id: 'g1',
     title: 'Store Front',
     description: 'Jai Hind Army Store - Your trusted uniform destination',
-    imageUrl: 'https://images.pexels.com/photos/264636/pexels-photo-264636.jpeg?auto=compress&cs=tinysrgb&w=800',
+    imageUrl: '/g1.jpeg',
     category: 'store'
   },
   {
     id: 'g2',
     title: 'Inside Our Store',
     description: 'Wide range of uniforms and equipment on display',
-    imageUrl: 'https://images.pexels.com/photos/1884581/pexels-photo-1884581.jpeg?auto=compress&cs=tinysrgb&w=800',
+    imageUrl: '/g2.jpeg',
     category: 'store'
   },
   {
     id: 'g3',
     title: 'Army Uniform Collection',
     description: 'Premium quality Indian Army uniforms',
-    imageUrl: 'https://images.pexels.com/photos/1346155/pexels-photo-1346155.jpeg?auto=compress&cs=tinysrgb&w=800',
+    imageUrl: '/g3.jpeg',
     category: 'products'
   },
   {
     id: 'g4',
     title: 'NCC Cadet Uniforms',
     description: 'Complete NCC uniform sets for cadets',
-    imageUrl: 'https://images.pexels.com/photos/8899284/pexels-photo-8899284.jpeg?auto=compress&cs=tinysrgb&w=800',
+    imageUrl: '/g4.jpeg',
     category: 'products'
   },
   {
     id: 'g5',
     title: 'Police Gear Display',
     description: 'Professional police uniforms and accessories',
-    imageUrl: 'https://images.pexels.com/photos/8092368/pexels-photo-8092368.jpeg?auto=compress&cs=tinysrgb&w=800',
+    imageUrl: '/bg1.jpeg',
     category: 'products'
   },
   {

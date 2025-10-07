@@ -24,7 +24,7 @@ Message:
 ${formData.message}
     `;
 
-    const mailtoLink = `mailto:learnwithanukalp@gmail.com?subject=${encodeURIComponent(emailSubject)}&body=${encodeURIComponent(emailBody)}`;
+  const mailtoLink = `mailto:J.k.enterprisesrewa@gmail.com?subject=${encodeURIComponent(emailSubject)}&body=${encodeURIComponent(emailBody)}`;
     window.location.href = mailtoLink;
 
     setIsSubmitted(true);
@@ -85,8 +85,8 @@ ${formData.message}
                 </div>
                 <div>
                   <h3 className="font-bold text-gray-900 mb-1">Email Us</h3>
-                  <a href="mailto:learnwithanukalp@gmail.com" className="text-orange-600 hover:text-orange-800 break-all">
-                    learnwithanukalp@gmail.com
+                  <a href="mailto:J.k.enterprisesrewa@gmail.com" className="text-orange-600 hover:text-orange-800 break-all">
+                    J.k.enterprisesrewa@gmail.com
                   </a>
                 </div>
               </div>

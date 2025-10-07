@@ -6,7 +6,7 @@ export const categories: Category[] = [
     name: 'Army Uniforms',
     slug: 'army-uniforms',
     description: 'Premium quality Indian Army uniforms and accessories',
-    imageUrl: 'https://images.pexels.com/photos/1346155/pexels-photo-1346155.jpeg?auto=compress&cs=tinysrgb&w=800',
+    imageUrl: 'https://i.pinimg.com/736x/41/4a/3a/414a3a70025d8778f022ee10daafe2d8.jpg',
     displayOrder: 1
   },
   {
@@ -14,7 +14,7 @@ export const categories: Category[] = [
     name: 'NCC Uniforms',
     slug: 'ncc-uniforms',
     description: 'Complete NCC uniform sets for cadets',
-    imageUrl: 'https://images.pexels.com/photos/8899284/pexels-photo-8899284.jpeg?auto=compress&cs=tinysrgb&w=800',
+    imageUrl: 'https://dresscodeclothing.in/wp-content/uploads/2025/08/NCC-Uniform-with-Accessories-Set-Indian-Army-Military-Commando.jpg',
     displayOrder: 2
   },
   {
@@ -22,7 +22,7 @@ export const categories: Category[] = [
     name: 'Police Uniforms',
     slug: 'police-uniforms',
     description: 'Authentic police uniforms and equipment',
-    imageUrl: 'https://images.pexels.com/photos/8092368/pexels-photo-8092368.jpeg?auto=compress&cs=tinysrgb&w=800',
+    imageUrl: 'https://www.rewariyasat.com/uploads/2019/09/mp-police.png',
     displayOrder: 3
   },
   {
@@ -30,7 +30,7 @@ export const categories: Category[] = [
     name: 'School & College Uniforms',
     slug: 'school-college-uniforms',
     description: 'Tailored uniforms for educational institutions',
-    imageUrl: 'https://images.pexels.com/photos/8500309/pexels-photo-8500309.jpeg?auto=compress&cs=tinysrgb&w=800',
+    imageUrl: 'https://www.jsssrewa.org/images/Uniform.jpg',
     displayOrder: 4
   },
   {
@@ -38,7 +38,7 @@ export const categories: Category[] = [
     name: 'Sportswear',
     slug: 'sportswear',
     description: 'High-quality sportswear for all activities',
-    imageUrl: 'https://images.pexels.com/photos/2294361/pexels-photo-2294361.jpeg?auto=compress&cs=tinysrgb&w=800',
+    imageUrl: '/kit2.jpeg',
     displayOrder: 5
   },
   {
@@ -46,12 +46,25 @@ export const categories: Category[] = [
     name: 'Accessories & Equipment',
     slug: 'accessories-equipment',
     description: 'Military gear, scientific equipment and accessories',
-    imageUrl: 'https://images.pexels.com/photos/1413412/pexels-photo-1413412.jpeg?auto=compress&cs=tinysrgb&w=800',
+    imageUrl: '/bg3.png',
     displayOrder: 6
   }
 ];
 
 export const products: Product[] = [
+  {
+    id: 'p3',
+    categoryId: '2',
+    name: 'NCC Cadet Full Uniform',
+    slug: 'ncc-cadet-full-uniform',
+    description: 'Complete NCC uniform set for cadets including shirt, trousers, belt, cap, and badges. Meets all NCC uniform regulations. Available in all sizes.',
+    shortDescription: 'Complete NCC uniform with all accessories',
+    price: 1599,
+    imageUrl: 'https://dresscodeclothing.in/wp-content/uploads/2025/08/NCC-Uniform-with-Accessories-Set-Indian-Army-Military-Commando.jpg',
+    images: [],
+    isFeatured: true,
+    isAvailable: true
+  },
   {
     id: 'p1',
     categoryId: '1',
@@ -59,8 +72,8 @@ export const products: Product[] = [
     slug: 'army-combat-uniform-set',
     description: 'Complete Indian Army combat uniform set including shirt, trousers, and cap. Made from high-quality durable fabric suitable for all weather conditions. Features reinforced stitching and regulation design.',
     shortDescription: 'Complete combat uniform with shirt, trousers & cap',
-    price: 2499,
-    imageUrl: 'https://images.pexels.com/photos/1346155/pexels-photo-1346155.jpeg?auto=compress&cs=tinysrgb&w=800',
+    price: 799,
+    imageUrl: 'https://dresscodeclothing.in/wp-content/uploads/2025/08/Indian-Army-Combat-Uniform-Shirt.jpg',
     images: [],
     isFeatured: true,
     isAvailable: true
@@ -73,20 +86,7 @@ export const products: Product[] = [
     description: 'Premium ceremonial dress uniform for Indian Army personnel. Includes coat, trousers, belt, and badges. Expertly tailored for formal occasions and parades.',
     shortDescription: 'Premium ceremonial dress with coat & accessories',
     price: 3999,
-    imageUrl: 'https://images.pexels.com/photos/1462630/pexels-photo-1462630.jpeg?auto=compress&cs=tinysrgb&w=800',
-    images: [],
-    isFeatured: true,
-    isAvailable: true
-  },
-  {
-    id: 'p3',
-    categoryId: '2',
-    name: 'NCC Cadet Full Uniform',
-    slug: 'ncc-cadet-full-uniform',
-    description: 'Complete NCC uniform set for cadets including shirt, trousers, belt, cap, and badges. Meets all NCC uniform regulations. Available in all sizes.',
-    shortDescription: 'Complete NCC uniform with all accessories',
-    price: 1899,
-    imageUrl: 'https://images.pexels.com/photos/8899284/pexels-photo-8899284.jpeg?auto=compress&cs=tinysrgb&w=800',
+    imageUrl: 'https://5.imimg.com/data5/QM/QK/MY-8451013/army-ceremonial-dress-500x500.jpg',
     images: [],
     isFeatured: true,
     isAvailable: true
@@ -99,7 +99,7 @@ export const products: Product[] = [
     description: 'Regulation NCC dress shoes with superior comfort and durability. High-shine leather finish suitable for parades and formal occasions.',
     shortDescription: 'Regulation dress shoes with high-shine finish',
     price: 1299,
-    imageUrl: 'https://images.pexels.com/photos/1240892/pexels-photo-1240892.jpeg?auto=compress&cs=tinysrgb&w=800',
+    imageUrl: 'nccshoes.jpeg',
     images: [],
     isFeatured: false,
     isAvailable: true
@@ -112,7 +112,7 @@ export const products: Product[] = [
     description: 'Standard police khaki uniform set including shirt, trousers, and accessories. Made from breathable fabric with proper fitting.',
     shortDescription: 'Standard khaki uniform for police personnel',
     price: 1799,
-    imageUrl: 'https://images.pexels.com/photos/8092368/pexels-photo-8092368.jpeg?auto=compress&cs=tinysrgb&w=800',
+    imageUrl: 'https://treyondworld.com/wp-content/uploads/2024/05/CKS00567-scaled.jpg',
     images: [],
     isFeatured: false,
     isAvailable: true
@@ -120,12 +120,12 @@ export const products: Product[] = [
   {
     id: 'p6',
     categoryId: '3',
-    name: 'Police Belt & Accessories Kit',
+    name: 'NCC Belt & Accessories Kit',
     slug: 'police-belt-accessories-kit',
-    description: 'Complete police accessories kit including leather belt, whistle, and essential gear holders. Premium quality materials.',
-    shortDescription: 'Essential police accessories and equipment',
+    description: 'Complete NCC accessories kit including leather belt, whistle, and essential gear holders. Premium quality materials.',
+    shortDescription: 'Essential NCC accessories and equipment',
     price: 899,
-    imageUrl: 'https://images.pexels.com/photos/1413412/pexels-photo-1413412.jpeg?auto=compress&cs=tinysrgb&w=800',
+    imageUrl: 'https://tangocharli.com/wp-content/uploads/2023/07/ncc-accessories.jpg',
     images: [],
     isFeatured: false,
     isAvailable: true
@@ -138,7 +138,7 @@ export const products: Product[] = [
     description: 'Comfortable and durable school uniform set. Customizable with school logo and colors. Available for all age groups.',
     shortDescription: 'Quality school uniform with customization options',
     price: 799,
-    imageUrl: 'https://images.pexels.com/photos/8500309/pexels-photo-8500309.jpeg?auto=compress&cs=tinysrgb&w=800',
+    imageUrl: 'https://images.jdmagicbox.com/quickquotes/images_main/-5ojroso3.jpg',
     images: [],
     isFeatured: false,
     isAvailable: true
@@ -151,7 +151,7 @@ export const products: Product[] = [
     description: 'Breathable sports uniform for college students. Includes jersey and shorts. Available in multiple colors and sizes.',
     shortDescription: 'Comfortable sports uniform for colleges',
     price: 699,
-    imageUrl: 'https://images.pexels.com/photos/2294361/pexels-photo-2294361.jpeg?auto=compress&cs=tinysrgb&w=800',
+    imageUrl: 'tshirt1.jpeg',
     images: [],
     isFeatured: false,
     isAvailable: true
@@ -164,7 +164,7 @@ export const products: Product[] = [
     description: 'High-quality track suit perfect for sports and fitness activities. Made from moisture-wicking fabric with excellent durability.',
     shortDescription: 'Moisture-wicking track suit for sports',
     price: 1499,
-    imageUrl: 'https://images.pexels.com/photos/1884584/pexels-photo-1884584.jpeg?auto=compress&cs=tinysrgb&w=800',
+    imageUrl: '/kit4.jpeg',
     images: [],
     isFeatured: true,
     isAvailable: true
@@ -177,7 +177,7 @@ export const products: Product[] = [
     description: 'Customizable sports jersey set for teams. Breathable fabric with custom printing available. Bulk orders welcome.',
     shortDescription: 'Customizable team jersey with printing',
     price: 599,
-    imageUrl: 'https://images.pexels.com/photos/3621104/pexels-photo-3621104.jpeg?auto=compress&cs=tinysrgb&w=800',
+    imageUrl: 'kit3.jpeg',
     images: [],
     isFeatured: false,
     isAvailable: true
@@ -189,8 +189,8 @@ export const products: Product[] = [
     slug: 'military-backpack',
     description: 'Rugged military-grade backpack with multiple compartments. Water-resistant and perfect for outdoor activities.',
     shortDescription: 'Durable military backpack, water-resistant',
-    price: 1899,
-    imageUrl: 'https://images.pexels.com/photos/2760243/pexels-photo-2760243.jpeg?auto=compress&cs=tinysrgb&w=800',
+    price: 1199,
+    imageUrl: 'https://www.militiazone.in/image/cache/catalog/products/RB-UNO-26INCH/1-735x735.jpg',
     images: [],
     isFeatured: false,
     isAvailable: true
@@ -198,15 +198,16 @@ export const products: Product[] = [
   {
     id: 'p12',
     categoryId: '6',
-    name: 'Scientific Lab Coat',
-    slug: 'scientific-lab-coat',
-    description: 'Professional lab coat for scientific and medical use. Made from quality fabric with proper pockets and comfortable fit.',
-    shortDescription: 'Professional lab coat for scientists',
-    price: 799,
-    imageUrl: 'https://images.pexels.com/photos/2280549/pexels-photo-2280549.jpeg?auto=compress&cs=tinysrgb&w=800',
-    images: [],
-    isFeatured: false,
-    isAvailable: true
+name: 'Sports Shoes',
+slug: 'sports-shoes',
+description: 'Comfortable and durable sports shoes designed for running, training, and daily wear. Made with breathable material and strong grip soles.',
+shortDescription: 'Comfortable and durable sports shoes',
+price: 1499,
+imageUrl: 'shoes1.jpeg',
+images: [],
+isFeatured: false,
+isAvailable: true
+
   }
 ];
 

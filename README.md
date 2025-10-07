@@ -68,7 +68,7 @@ A modern, mobile-first e-commerce website for Jai Hind Army Store operated by J 
 **Company**: J & K Enterprises
 **Location**: Ward No. 43, Krishna Nagar, Rewa (M.P.)
 **Phone**: +91 7067894770
-**Email**: learnwithanukalp@gmail.com
+**Email**: J.k.enterprisesrewa@gmail.com
 
 ## Product Categories
 

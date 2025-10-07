@@ -17,7 +17,7 @@ const slides: Slide[] = [
     title: 'Premium Army Uniforms',
     subtitle: 'Authentic & High Quality',
     description: 'Complete uniform sets for Indian Army personnel. Made with precision and pride.',
-    image: 'https://images.pexels.com/photos/1346155/pexels-photo-1346155.jpeg?auto=compress&cs=tinysrgb&w=1920',
+    image: '/bg3.png',
     cta: 'Shop Army Uniforms',
     ctaLink: '/products?category=army-uniforms'
   },
@@ -26,7 +26,7 @@ const slides: Slide[] = [
     title: 'NCC Cadet Essentials',
     subtitle: 'Complete Uniform Sets',
     description: 'Everything NCC cadets need - from uniforms to accessories. Regulation compliant.',
-    image: 'https://images.pexels.com/photos/8899284/pexels-photo-8899284.jpeg?auto=compress&cs=tinysrgb&w=1920',
+    image: 'g1.jpeg',
     cta: 'Browse NCC Collection',
     ctaLink: '/products?category=ncc-uniforms'
   },
@@ -35,7 +35,7 @@ const slides: Slide[] = [
     title: 'Police Gear & Uniforms',
     subtitle: 'Professional Equipment',
     description: 'Trusted by law enforcement. Quality police uniforms and tactical gear.',
-    image: 'https://images.pexels.com/photos/8092368/pexels-photo-8092368.jpeg?auto=compress&cs=tinysrgb&w=1920',
+    image: 'https://qmstore.in/wp-content/uploads/2024/10/3-2.png.webp',
     cta: 'Explore Police Gear',
     ctaLink: '/products?category=police-uniforms'
   }
